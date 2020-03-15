@@ -1,0 +1,28 @@
+.btn-google {
+	background: #4688F1;
+    border: 1px solid #4688F1;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    float: right;
+}
+
+.btn-electro {
+    background: #d10024;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+	cursor: pointer;
+
+	&:hover {
+		background: rgb(168, 5, 32);
+	}
+}

@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.input-field')
+const inputs = document.querySelectorAll('.input-group__google .input-field')
 inputs.forEach(input => {
     input.addEventListener('focus', () => {
         const field = input.parentNode

@@ -1,0 +1,160 @@
+.input-group {
+    height: 72px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form__primary {
+
+    .login-form__logo {
+        background: #333;
+        padding: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .login-form__content {
+        padding: 30px;
+        background: white;
+    }
+    
+    .login-form__header {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-form__avatar {
+        height: 100px;
+    }
+}
+
+.input-field {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: #eeeeee;
+    border: 2px solid #eee;
+    outline: none;
+    border-radius: 5px;
+
+    &:hover {
+        border: 2px solid #eeeeee;
+        background: white;
+    }
+    &:focus {
+        border: 2px solid #eeeeee;
+        background: white;
+    }
+}
+
+.login-form__electro {
+
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    
+    .login-form__logo {
+        background: #333;
+        padding: 15px;
+        text-align: center;
+        color: white;
+    }
+    .login-form__content {
+        padding: 30px;
+        background: white;
+    }
+    
+    .login-form__header {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.login-form__custom {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    
+    .login-form__header {
+        padding: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .login-form__avatar {
+        height: 100px;
+    }
+    
+    .login-form__title {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .login-form__inputs {
+        padding: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+// Google input form style
+.login-form__google {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+.input-group__google {
+    position: relative;
+    padding-top: 20px;
+    
+    label {
+        display: block;
+        padding: 0 2px;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        color: black;
+        cursor: text;
+        transition: ease 0.3s;
+    }
+
+    input {
+        display: inline-block;
+        padding: 15px;
+        width: 100%;
+        border: 2px solid #DADCE0;
+        border-radius: 3px;
+        outline: none;
+        background: transparent;
+    }
+    &.is-focus label {
+        display: block;
+        padding: 0 2px;
+        background: white;
+        font-size: 1.1rem;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transition: ease 0.4s;
+        color: #4688F1;
+        font-size: 0.9rem;
+    }
+
+    &.is-focus .input-field {
+        border-color: #4688F1;
+        border-width: 2px;
+    }
+}
+
